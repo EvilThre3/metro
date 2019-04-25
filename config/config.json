@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "metro-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/metro/MetroWebPart.js",
+          "manifest": "./src/webparts/metro/MetroWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MetroWebPartStrings": "lib/webparts/metro/loc/{locale}.js"
+  }
+}
